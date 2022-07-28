@@ -1,0 +1,223 @@
+body{
+
+}
+
+a {
+	color: #000;
+}
+
+a:hover{
+	color: #ff4c68;
+}
+
+#title{
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+
+
+h2{
+	font-family: "Montserrat";
+	font-weight: 700;
+	line-height: 3rem;
+}
+
+p{
+	color: #8f8f8f;
+}
+
+/*heading*/
+.Main-heading{
+	font-family: 'Montserrat-black', sans-serif;
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: 900;
+}
+
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid {
+	padding: 3% 15% 7%;
+}
+
+.fa-brands{
+	padding-right: 10px;
+}
+
+/*navbar*/
+
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.navbar{
+	padding-bottom: 4.5rem;
+}
+
+.nav-item{
+	padding: 0 18px;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+}
+
+/*download buttons*/
+
+.download-button{
+	margin: 5% 3% 5% 0;
+}
+
+/*title image*/
+
+.title-image{
+	width: 20%;
+	transform: rotate(25deg);
+	position: absolute;
+	left: 56%;
+}
+
+/*feature section*/
+
+#features{
+	padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+
+.icon{
+	color: #ef8172;
+	margin-bottom: 1rem;
+	transition: .4s ease;
+}
+
+.icon:hover{
+	color: #ff4c68;
+	transition: .4s ease;
+}
+
+/*testimonial section*/
+
+#testimonials{
+	text-align: center;
+	background-color: #ef8172;
+	color: #fff;
+}
+
+.testimonial-image{
+	width: 10%;
+	border-radius: 100%;
+	padding: 20px;
+}
+
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+.carousel-item{
+	padding: 7% 15%;
+}
+
+/*pricing section*/
+
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+
+.pricing-column {
+	padding: 3% 2%;
+}
+
+#cta{
+	background-color: #ff4c68;
+	padding: 100px;
+	text-align: center;
+	
+}
+
+#cta h3{
+	font-family: 'Montserrat-black' sans-serif;
+	font-weight: 900;
+	color: #fff;
+	font-size: 2rem;
+}
+
+.key{
+	padding-top: 2rem;
+}
+
+
+#footer{
+	background-color: #fff;
+	padding: 30px 100px;
+	text-align: center;
+}
+
+#footer p{
+	padding-top: 1.5rem;
+}
+
+.icons{
+	padding-top: 2rem;
+}
+
+.icon{
+	padding: 0 2rem;
+	color: #000;
+}
+
+
+
+/*media query*/
+
+@media (max-width: 1028px){
+	.title-image{
+		position: static;
+		width: 60%;
+		transform: rotate(0);
+	}
+	#title{
+		text-align: center;
+	}
+	h1{
+		font-size: 2.5rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
